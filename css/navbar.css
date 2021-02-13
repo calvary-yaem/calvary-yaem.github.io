@@ -1,0 +1,16 @@
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.nav-link.active{
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: bold;
+}
+
+/*NON-NAVBAR STUFF*/
+body {
+    background-color: black;
+}
