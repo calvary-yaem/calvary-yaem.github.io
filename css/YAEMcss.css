@@ -170,18 +170,18 @@ section#Contacts{
     background-color: rgba(0,0,0,.2);
 }
 
-#Fellowship .Text{
-    margin: 15% 10% 0% 10%;
+#Fellowship .Text.Small{
+    margin: 15% 50% 0% 7%;
+}
+
+#Contacts .Text.Small{
+    margin: 15% 50% 0% 7%;
 }
 
 @media only screen and (max-width: 800px) {
     .Text.Small{
         margin: 15% 10% 0% 10%;
     }
-}
-
-#Fellowship .Text.Small{
-    margin: 15% 10% 0% 10%;
 }
 
 .Text h1{
