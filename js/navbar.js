@@ -8,7 +8,7 @@ $(document).ready(function() {
         var currentScroll = $(this).scrollTop();
         if (currentScroll > previousScroll && currentScroll > headerOrgOffset) {
             $('.navbar').fadeOut();
-        } else if (currentScroll < previousScroll) {
+        } else if (currentScroll < previousScroll && currentScroll <= headerOrgOffset) {
             $('.navbar').fadeIn();
         }
         previousScroll = currentScroll;
