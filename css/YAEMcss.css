@@ -110,6 +110,14 @@ section{
     font-weight: 300;
 }
 
+section{
+    /* parallax-related */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 section#Service{
     height:100vh;
