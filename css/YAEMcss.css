@@ -48,7 +48,7 @@ blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
-}robis
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -187,11 +187,15 @@ section#Events{
 
 .Text h1{
     font-size: 3rem;
-    padding-bottom: 30px;
+    letter-spacing: 3px;
 }
 
 .Text a{
     font-size: 1rem;
+}
+
+.Text p{
+    padding-top: 30px;
 }
 
 .buttons{
