@@ -184,8 +184,8 @@ section#Contacts{
     margin: 15% 50% 0% 7%;
 }
 
-#Contacts .Text.Small{
-    margin: 15% 50% 0% 7%;
+#Contacts .Text{
+    margin: 5% 5% 5% 5%;
 }
 
 @media only screen and (max-width: 800px) {
