@@ -15,11 +15,10 @@
 }  
 
 .navbar-nav{
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 600;
+    font-family: "Poppins", sans-serif;
 }
 
 /*NON-NAVBAR STUFF*/
 body {
-    background-color: #F2CC8F;
+    background-color: #F4F1DE;
 }

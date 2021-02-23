@@ -46,7 +46,7 @@ table {
 }
 
 section.heading{
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
     position: relative;
     background-size: cover;
@@ -63,6 +63,7 @@ section.heading{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 5% 5%;
 }
 
 .heading h1{
@@ -71,41 +72,39 @@ section.heading{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 45px;
-    margin: 20% 44% 3% 0%;
     position: relative;
     text-align: left;
 }
 
-/* h1::after{
-    content: " ";
-    display: block;
-    position: absolute;
-    background: white;
-    width: 700px;
-    height: 3px;
-    bottom: -20px;
-} */
-
-.about{
+.church{
     font-family: "Poppins", sans-serif;
-    padding: 10% 20%;
     line-height: 2.0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 5% 15%;
 }
 
-.about h1{
-    font-size: 30px;
-    padding-bottom: 5%;
-    text-align: center;
+
+.aboutus, .webelieve{
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 3%;
 
 }
 
-/* .about h1::after{
-    content: " ";
-    display: block;
-    position: absolute;
-    background: black;
-    width: 750px;
-    height: 2px;
-    bottom: 199px;
+.aboutus h1{
+    font-size: 25px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3D405B;
+}
 
-}  */
+.webelieve h1{
+    font-size: 25px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3D405B;
+}
