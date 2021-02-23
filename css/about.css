@@ -73,6 +73,7 @@ section.heading{
     font-size: 45px;
     margin: 20% 44% 3% 0%;
     position: relative;
+    text-align: left;
 }
 
 /* h1::after{
@@ -94,14 +95,17 @@ section.heading{
 .about h1{
     font-size: 30px;
     padding-bottom: 5%;
+    text-align: center;
+
 }
 
-.about h1::after{
+/* .about h1::after{
     content: " ";
     display: block;
     position: absolute;
     background: black;
-    width: 700px;
+    width: 750px;
     height: 2px;
-    bottom: 250px;
-} 
+    bottom: 199px;
+
+}  */
