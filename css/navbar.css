@@ -4,6 +4,10 @@
     position: absolute;
 }
 
+.nav-item{
+    margin-right: 5%;
+}
+
 .nav-link.active{
     text-decoration: underline;
     text-underline-position: under;

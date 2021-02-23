@@ -86,14 +86,14 @@ section.heading{
 }
 
 
-.aboutus, .webelieve{
+.clickme, .webelieve{
     margin-bottom: 50px;
     background-color: rgba(0, 0, 0, 0.05);
     padding: 3%;
 
 }
 
-.aboutus h1{
+.clickme h1{
     font-size: 25px;
     text-align: left;
     font-weight: 600;
