@@ -6,6 +6,7 @@
 
 .nav-item{
     margin-right: 5%;
+    letter-spacing: -1px;
 }
 
 .nav-link.active{
