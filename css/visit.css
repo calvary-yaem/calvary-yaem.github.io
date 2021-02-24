@@ -81,7 +81,7 @@ section.heading{
     line-height: 2.0;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: row;
     padding: 5% 15%;
 }
 
