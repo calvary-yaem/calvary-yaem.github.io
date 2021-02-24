@@ -199,6 +199,32 @@ section#Contacts{
     .Text.Small{
         margin: 15% 10% 0% 10%;
     }
+
+    #Fellowship .Text.Small{
+        margin: 15% 10% 0% 10%;
+    }
+
+    section#Service{
+        background-size: cover;
+        background-position: 50% 50%;
+        background-image: url(../img/jinsmile.jpg);
+    }
+    
+    section#Church{
+        background-size: cover;
+        background-position: 50% 50%;
+        background-image: url(../img/walking.JPG);
+    }
+    section#Fellowship{
+        background-size: cover;
+        background-position: 50% 50%;
+        background-image: url(../img/fellowship.jpg);
+    }
+    section#Events{
+        background-size: cover;
+        background-position: 50% 50%;
+        background-image: url(../img/group.jpg);
+    }
 }
 
 .Text h1{
