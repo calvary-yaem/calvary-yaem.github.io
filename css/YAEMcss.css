@@ -125,6 +125,7 @@ section{
 
 
 section#Service{
+    margin-top: 10px;
     height:100vh;
     width: 100vw;
     position: relative;
@@ -147,7 +148,7 @@ section#Fellowship{
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url(../img/fellowship.jpg);
+    background-image: url(../img/circle.jpg);
 }
 section#Events{
     height:100vh;
@@ -155,7 +156,7 @@ section#Events{
     position: relative;
     background-size: cover;
     background-position: 0% 100%;
-    background-image: url(../img/group.JPG);
+    background-image: url(../img/food.JPG);
 }
 
 section#Contacts{
@@ -190,7 +191,7 @@ section#Contacts{
 }
 
 #Contacts .Text{
-    margin: 5% 5% 5% 5%;
+    margin: 5% 15% 5% 15%;
     background-color: transparent;
     color: black;
 }

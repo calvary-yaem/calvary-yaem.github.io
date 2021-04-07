@@ -52,8 +52,8 @@ section.heading{
     width: 100vw;
     position: relative;
     background-size: cover;
-    background-position: 50% 50%;
-    background-image: url(../img/walking.JPG);
+    background-position: 50%;
+    background-image: url(../img/circle.JPG);
 }
 
 .filter{
@@ -119,3 +119,8 @@ section{
     background-size: cover;
 }
 
+section.church{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
