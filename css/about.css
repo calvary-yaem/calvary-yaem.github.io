@@ -88,14 +88,14 @@ section.heading{
 }
 
 
-.clickme, .webelieve{
+.whoAreWe, .weBelieve{
     margin-bottom: 50px;
     background-color: rgba(0, 0, 0, 0.05);
     padding: 3%;
 
 }
 
-.clickme h1{
+.whoAreWe h1{
     font-size: 25px;
     text-align: left;
     font-weight: 600;
@@ -103,7 +103,7 @@ section.heading{
     color: #3D405B;
 }
 
-.webelieve h1{
+.weBelieve h1{
     font-size: 25px;
     text-align: left;
     font-weight: 600;

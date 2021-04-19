@@ -68,6 +68,20 @@ section.heading{
     padding: 5% 5%;
 }
 
+.cherryBlossom{
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 3%;
+
+}
+
+.cherryBlossom h1{
+    font-size: 25px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3D405B;
+}
+
 .heading h1{
     font-family: "PT Serif", sans;
     color: white;
@@ -78,37 +92,15 @@ section.heading{
     text-align: left;
 }
 
-.church{
+.events{
     font-family: "Poppins", sans-serif;
-    line-height: 2.0;
+    line-height: 1.5;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     padding: 5% 10%;
 }
 
-
-.clickme, .webelieve{
-    background-color: rgba(0, 0, 0, 0.05);
-    padding: 3%;
-
-}
-
-.clickme h1{
-    font-size: 25px;
-    text-align: left;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3D405B;
-}
-
-.webelieve h1{
-    font-size: 25px;
-    text-align: left;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3D405B;
-}
 
 section{
     /* parallax-related */
@@ -118,7 +110,7 @@ section{
     background-size: cover;
 }
 
-div#eventOne{
+#eventOne{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

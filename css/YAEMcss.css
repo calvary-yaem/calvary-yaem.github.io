@@ -69,7 +69,7 @@ section{
     align-items: center;
 }
 
-#MainText {
+#HomeText {
     font-family: "PT Serif", sans;
     color: white;
     position: absolute;
@@ -85,24 +85,24 @@ section{
     text-align: center;
 }
 
-#MainText h1{
+#HomeText h1{
     margin-bottom: 25px;
     font-size: 60px;
 }
 
-#MainText p{
+#HomeText p{
     margin-bottom: 20px;
     font-size: 20px;
 }
 
-#MainText a{
+#HomeText a{
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     color: #ecf0f1;
     text-decoration: none;
 }
 
-.OnlineWorship{
+.OnlineWorshipButton{
     border: 1px solid white;
     padding: 15px 35px;
     margin-top: 15px;
@@ -110,7 +110,7 @@ section{
     font-weight: 300;
 }
 
-.OnlineWorship:hover{
+.OnlineWorshipButton:hover{
     background-color: rgba(0, 0, 0, 0.3);
     transition: .3s ease-out;
 }
@@ -124,7 +124,7 @@ section{
 }
 
 
-section#Service{
+section#HomePage{
     margin-top: 10px;
     height:100vh;
     width: 100vw;
@@ -159,7 +159,7 @@ section#Events{
     background-image: url(../img/food.JPG);
 }
 
-section#Contacts{
+section#ContactUs{
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -190,7 +190,7 @@ section#Contacts{
     margin: 15% 50% 0% 7%;
 }
 
-#Contacts .Text{
+#ContactUs .Text{
     margin: 5% 15% 5% 15%;
     background-color: transparent;
     color: black;
@@ -205,7 +205,7 @@ section#Contacts{
         margin: 15% 10% 0% 10%;
     }
 
-    section#Service{
+    section#HomePage{
         background-size: cover;
         background-position: 50% 50%;
         background-image: url(../img/jinsmile.jpg);
@@ -219,12 +219,12 @@ section#Contacts{
     section#Fellowship{
         background-size: cover;
         background-position: 50% 50%;
-        background-image: url(../img/fellowship.jpg);
+        background-image: url(../img/circle.jpg);
     }
     section#Events{
         background-size: cover;
         background-position: 50% 50%;
-        background-image: url(../img/group.jpg);
+        background-image: url(../img/food.jpg);
     }
 }
 
@@ -241,15 +241,8 @@ section#Contacts{
     padding-top: 30px;
 }
 
-.buttons{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-}
 
-
-
-#clickme{
+#learnMoreButton{
     border: 2px solid #F4F1DE;
     padding: 7px 20px;
     margin-right: 20px;
@@ -260,13 +253,9 @@ section#Contacts{
 
 }
 
-#clickme:hover{
+#learnMoreButton:hover{
     background-color: rgba(0, 0, 0, 0.3);
     transition: .3s ease-out;
-}
-
-#Fellowship .Text, #Fellowship .buttons{
-    color: white;
 }
 
 
