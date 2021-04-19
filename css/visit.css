@@ -109,3 +109,32 @@ section{
     background-size: cover;
 }
 
+@media only screen and (max-width: 800px) {
+
+    .whereAreWe{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.75;
+        background-color: rgba(0, 0, 0, 0.05);
+        text-align: center;
+        padding: 3%;
+    }
+
+    #addressTimePhone{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .whereAreWe h1{
+        font-size: 25px;
+        text-align: left;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        color: #3D405B;
+    }
+
+   
+
+}
+
